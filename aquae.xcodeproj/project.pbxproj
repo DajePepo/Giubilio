@@ -7,48 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A43529E1C4EBE1600F2EC93 /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B7E1BFB97B5004E0496 /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A47B1201C5AAFCE00E395EA /* aquaeCripted.db in Resources */ = {isa = PBXBuildFile; fileRef = 9A47B11F1C5AAFCE00E395EA /* aquaeCripted.db */; };
+		9AA7E9D91F54A04400C9B1F0 /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7E9D81F54A04400C9B1F0 /* RNCryptor.swift */; };
 		9AC84B4E1BFB975A004E0496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84B4D1BFB975A004E0496 /* AppDelegate.swift */; };
-		9AC84B501BFB975A004E0496 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84B4F1BFB975A004E0496 /* FirstViewController.swift */; };
-		9AC84B521BFB975A004E0496 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84B511BFB975A004E0496 /* SecondViewController.swift */; };
 		9AC84B551BFB975A004E0496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC84B531BFB975A004E0496 /* Main.storyboard */; };
 		9AC84B571BFB975A004E0496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC84B561BFB975A004E0496 /* Assets.xcassets */; };
 		9AC84B5A1BFB975A004E0496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC84B581BFB975A004E0496 /* LaunchScreen.storyboard */; };
-		9AC84B651BFB975A004E0496 /* aquaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84B641BFB975A004E0496 /* aquaeTests.swift */; };
-		9AC84B701BFB975A004E0496 /* aquaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84B6F1BFB975A004E0496 /* aquaeUITests.swift */; };
+		9AC84B861BFB990C004E0496 /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AC84B851BFB990C004E0496 /* SKMaps.bundle */; };
+		9AC84B8A1BFB99A7004E0496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B891BFB99A7004E0496 /* UIKit.framework */; };
+		9AC84B8C1BFB99C0004E0496 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B8B1BFB99C0004E0496 /* CoreLocation.framework */; };
+		9AC84B8E1BFB99CC004E0496 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B8D1BFB99CC004E0496 /* OpenGLES.framework */; };
+		9AC84B901BFB99D7004E0496 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B8F1BFB99D7004E0496 /* QuartzCore.framework */; };
+		9AC84B921BFB99F3004E0496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B911BFB99F3004E0496 /* CoreGraphics.framework */; };
+		9AC84B941BFB99FF004E0496 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B931BFB99FF004E0496 /* CoreMotion.framework */; };
+		9AC84B961BFB9A44004E0496 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B951BFB9A44004E0496 /* libz.tbd */; };
+		9AC84B981BFB9A54004E0496 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84B971BFB9A54004E0496 /* libc++.tbd */; };
+		9AC84BB71BFE3751004E0496 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BB11BFE3751004E0496 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AC84BBA1BFE3751004E0496 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BB31BFE3751004E0496 /* FMDatabaseAdditions.m */; };
+		9AC84BBD1BFE3751004E0496 /* fmdb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AC84BB41BFE3751004E0496 /* fmdb.txt */; };
+		9AC84BC01BFE3751004E0496 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BB61BFE3751004E0496 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AC84BC81BFE3860004E0496 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BC61BFE3860004E0496 /* ModelManager.swift */; };
+		9AC84BCB1BFE3860004E0496 /* Poi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BC71BFE3860004E0496 /* Poi.swift */; };
+		9AC84BCF1BFE38B1004E0496 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BCE1BFE38B1004E0496 /* Util.swift */; };
+		9AC84BD71BFE4AC0004E0496 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC84BD61BFE4AC0004E0496 /* libsqlite3.0.tbd */; };
+		9AC84BDB1C075CAA004E0496 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BDA1C075CAA004E0496 /* DetailViewController.swift */; };
+		9AC84BE31C15ECEA004E0496 /* CircularLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC84BE21C15ECEA004E0496 /* CircularLoaderView.swift */; };
+		9AD292B91C281CCB00C9F4D2 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292B81C281CCB00C9F4D2 /* ListTableViewController.swift */; };
+		9AD292BD1C281EA300C9F4D2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292BC1C281EA300C9F4D2 /* ListTableViewCell.swift */; };
+		9AD292C11C319EEF00C9F4D2 /* RoutingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292C01C319EEF00C9F4D2 /* RoutingTableViewCell.swift */; };
+		9AD292C91C3C4B0200C9F4D2 /* IntroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292C81C3C4B0200C9F4D2 /* IntroTableViewController.swift */; };
+		9AD292CD1C3EB20500C9F4D2 /* IntroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292CC1C3EB20500C9F4D2 /* IntroTableViewCell.swift */; };
+		9AD292D21C3EC03300C9F4D2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292D11C3EC03300C9F4D2 /* MapViewController.swift */; };
+		9AD292D61C3EC43D00C9F4D2 /* PoiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292D51C3EC43D00C9F4D2 /* PoiView.swift */; };
+		9AD292DA1C40852B00C9F4D2 /* PoiTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292D91C40852B00C9F4D2 /* PoiTypeButton.swift */; };
+		9AD292DE1C42D6CE00C9F4D2 /* CustomPositionerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD292DD1C42D6CE00C9F4D2 /* CustomPositionerService.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9AC84B611BFB975A004E0496 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9AC84B421BFB975A004E0496 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9AC84B491BFB975A004E0496;
-			remoteInfo = aquae;
+/* Begin PBXCopyFilesBuildPhase section */
+		9AC84B841BFB9833004E0496 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9A43529E1C4EBE1600F2EC93 /* SKMaps.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AC84B6C1BFB975A004E0496 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9AC84B421BFB975A004E0496 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9AC84B491BFB975A004E0496;
-			remoteInfo = aquae;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A47B11F1C5AAFCE00E395EA /* aquaeCripted.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aquaeCripted.db; sourceTree = "<group>"; };
+		9AA7E9D81F54A04400C9B1F0 /* RNCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCryptor.swift; sourceTree = "<group>"; };
 		9AC84B4A1BFB975A004E0496 /* aquae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aquae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC84B4D1BFB975A004E0496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AC84B4F1BFB975A004E0496 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9AC84B511BFB975A004E0496 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9AC84B541BFB975A004E0496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AC84B561BFB975A004E0496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC84B591BFB975A004E0496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AC84B5B1BFB975A004E0496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AC84B601BFB975A004E0496 /* aquaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aquaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC84B641BFB975A004E0496 /* aquaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aquaeTests.swift; sourceTree = "<group>"; };
-		9AC84B661BFB975A004E0496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AC84B6B1BFB975A004E0496 /* aquaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aquaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC84B6F1BFB975A004E0496 /* aquaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aquaeUITests.swift; sourceTree = "<group>"; };
-		9AC84B711BFB975A004E0496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC84B7E1BFB97B5004E0496 /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
+		9AC84B851BFB990C004E0496 /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKMaps.bundle; sourceTree = "<group>"; };
+		9AC84B891BFB99A7004E0496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AC84B8B1BFB99C0004E0496 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9AC84B8D1BFB99CC004E0496 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9AC84B8F1BFB99D7004E0496 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9AC84B911BFB99F3004E0496 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AC84B931BFB99FF004E0496 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		9AC84B951BFB9A44004E0496 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9AC84B971BFB9A54004E0496 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9AC84BAD1BFE3750004E0496 /* aquae-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aquae-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		9AC84BB01BFE3751004E0496 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9AC84BB11BFE3751004E0496 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9AC84BB21BFE3751004E0496 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9AC84BB31BFE3751004E0496 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9AC84BB41BFE3751004E0496 /* fmdb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fmdb.txt; sourceTree = "<group>"; };
+		9AC84BB51BFE3751004E0496 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9AC84BB61BFE3751004E0496 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9AC84BC61BFE3860004E0496 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		9AC84BC71BFE3860004E0496 /* Poi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poi.swift; sourceTree = "<group>"; };
+		9AC84BCE1BFE38B1004E0496 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		9AC84BD61BFE4AC0004E0496 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9AC84BDA1C075CAA004E0496 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9AC84BE21C15ECEA004E0496 /* CircularLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularLoaderView.swift; sourceTree = "<group>"; };
+		9AD292B81C281CCB00C9F4D2 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		9AD292BC1C281EA300C9F4D2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		9AD292C01C319EEF00C9F4D2 /* RoutingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingTableViewCell.swift; sourceTree = "<group>"; };
+		9AD292C81C3C4B0200C9F4D2 /* IntroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroTableViewController.swift; sourceTree = "<group>"; };
+		9AD292CC1C3EB20500C9F4D2 /* IntroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroTableViewCell.swift; sourceTree = "<group>"; };
+		9AD292D11C3EC03300C9F4D2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9AD292D51C3EC43D00C9F4D2 /* PoiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiView.swift; sourceTree = "<group>"; };
+		9AD292D91C40852B00C9F4D2 /* PoiTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiTypeButton.swift; sourceTree = "<group>"; };
+		9AD292DD1C42D6CE00C9F4D2 /* CustomPositionerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPositionerService.swift; sourceTree = "<group>"; };
+		9AD292E31C4C0FC100C9F4D2 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +108,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AC84B5D1BFB975A004E0496 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AC84B681BFB975A004E0496 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9AC84BD71BFE4AC0004E0496 /* libsqlite3.0.tbd in Frameworks */,
+				9AC84B981BFB9A54004E0496 /* libc++.tbd in Frameworks */,
+				9AC84B961BFB9A44004E0496 /* libz.tbd in Frameworks */,
+				9AC84B941BFB99FF004E0496 /* CoreMotion.framework in Frameworks */,
+				9AC84B921BFB99F3004E0496 /* CoreGraphics.framework in Frameworks */,
+				9AC84B901BFB99D7004E0496 /* QuartzCore.framework in Frameworks */,
+				9AC84B8E1BFB99CC004E0496 /* OpenGLES.framework in Frameworks */,
+				9AC84B8C1BFB99C0004E0496 /* CoreLocation.framework in Frameworks */,
+				9AC84B8A1BFB99A7004E0496 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				9AC84B4C1BFB975A004E0496 /* aquae */,
-				9AC84B631BFB975A004E0496 /* aquaeTests */,
-				9AC84B6E1BFB975A004E0496 /* aquaeUITests */,
+				9AC84BAB1BFE370F004E0496 /* Thrid Party */,
+				9AC84B7D1BFB978A004E0496 /* Frameworks */,
 				9AC84B4B1BFB975A004E0496 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				9AC84B4A1BFB975A004E0496 /* aquae.app */,
-				9AC84B601BFB975A004E0496 /* aquaeTests.xctest */,
-				9AC84B6B1BFB975A004E0496 /* aquaeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,32 +145,111 @@
 			isa = PBXGroup;
 			children = (
 				9AC84B4D1BFB975A004E0496 /* AppDelegate.swift */,
-				9AC84B4F1BFB975A004E0496 /* FirstViewController.swift */,
-				9AC84B511BFB975A004E0496 /* SecondViewController.swift */,
 				9AC84B531BFB975A004E0496 /* Main.storyboard */,
 				9AC84B561BFB975A004E0496 /* Assets.xcassets */,
 				9AC84B581BFB975A004E0496 /* LaunchScreen.storyboard */,
 				9AC84B5B1BFB975A004E0496 /* Info.plist */,
+				9AC84BC31BFE380E004E0496 /* Model */,
+				9AC84BC41BFE3819004E0496 /* View */,
+				9AC84BC51BFE381F004E0496 /* Controller */,
+				9AD292E11C42DA3300C9F4D2 /* Utilities */,
 			);
 			path = aquae;
 			sourceTree = "<group>";
 		};
-		9AC84B631BFB975A004E0496 /* aquaeTests */ = {
+		9AC84B7D1BFB978A004E0496 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AC84B641BFB975A004E0496 /* aquaeTests.swift */,
-				9AC84B661BFB975A004E0496 /* Info.plist */,
+				9AC84BD61BFE4AC0004E0496 /* libsqlite3.0.tbd */,
+				9AC84B971BFB9A54004E0496 /* libc++.tbd */,
+				9AC84B951BFB9A44004E0496 /* libz.tbd */,
+				9AC84B931BFB99FF004E0496 /* CoreMotion.framework */,
+				9AC84B911BFB99F3004E0496 /* CoreGraphics.framework */,
+				9AC84B8F1BFB99D7004E0496 /* QuartzCore.framework */,
+				9AC84B8D1BFB99CC004E0496 /* OpenGLES.framework */,
+				9AC84B8B1BFB99C0004E0496 /* CoreLocation.framework */,
+				9AC84B891BFB99A7004E0496 /* UIKit.framework */,
+				9AC84B851BFB990C004E0496 /* SKMaps.bundle */,
+				9AC84B7E1BFB97B5004E0496 /* SKMaps.framework */,
 			);
-			path = aquaeTests;
+			name = Frameworks;
+			path = aquae;
 			sourceTree = "<group>";
 		};
-		9AC84B6E1BFB975A004E0496 /* aquaeUITests */ = {
+		9AC84BAB1BFE370F004E0496 /* Thrid Party */ = {
 			isa = PBXGroup;
 			children = (
-				9AC84B6F1BFB975A004E0496 /* aquaeUITests.swift */,
-				9AC84B711BFB975A004E0496 /* Info.plist */,
+				9AD292E71C4C0FD200C9F4D2 /* RNCryptor */,
+				9AC84BAC1BFE3732004E0496 /* FMDB */,
 			);
-			path = aquaeUITests;
+			name = "Thrid Party";
+			sourceTree = "<group>";
+		};
+		9AC84BAC1BFE3732004E0496 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9AC84BB01BFE3751004E0496 /* FMDatabase.h */,
+				9AC84BB11BFE3751004E0496 /* FMDatabase.m */,
+				9AC84BB21BFE3751004E0496 /* FMDatabaseAdditions.h */,
+				9AC84BB31BFE3751004E0496 /* FMDatabaseAdditions.m */,
+				9AC84BB41BFE3751004E0496 /* fmdb.txt */,
+				9AC84BB51BFE3751004E0496 /* FMResultSet.h */,
+				9AC84BB61BFE3751004E0496 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		9AC84BC31BFE380E004E0496 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A47B11F1C5AAFCE00E395EA /* aquaeCripted.db */,
+				9AC84BAD1BFE3750004E0496 /* aquae-Bridging-Header.h */,
+				9AC84BC61BFE3860004E0496 /* ModelManager.swift */,
+				9AC84BC71BFE3860004E0496 /* Poi.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9AC84BC41BFE3819004E0496 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AC84BE21C15ECEA004E0496 /* CircularLoaderView.swift */,
+				9AD292BC1C281EA300C9F4D2 /* ListTableViewCell.swift */,
+				9AD292C01C319EEF00C9F4D2 /* RoutingTableViewCell.swift */,
+				9AD292CC1C3EB20500C9F4D2 /* IntroTableViewCell.swift */,
+				9AD292D51C3EC43D00C9F4D2 /* PoiView.swift */,
+				9AD292D91C40852B00C9F4D2 /* PoiTypeButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9AC84BC51BFE381F004E0496 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AD292C81C3C4B0200C9F4D2 /* IntroTableViewController.swift */,
+				9AD292D11C3EC03300C9F4D2 /* MapViewController.swift */,
+				9AC84BDA1C075CAA004E0496 /* DetailViewController.swift */,
+				9AD292B81C281CCB00C9F4D2 /* ListTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9AD292E11C42DA3300C9F4D2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9AC84BCE1BFE38B1004E0496 /* Util.swift */,
+				9AD292DD1C42D6CE00C9F4D2 /* CustomPositionerService.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9AD292E71C4C0FD200C9F4D2 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				9AA7E9D81F54A04400C9B1F0 /* RNCryptor.swift */,
+				9AD292E31C4C0FC100C9F4D2 /* RNCryptor.h */,
+			);
+			name = RNCryptor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +262,8 @@
 				9AC84B461BFB975A004E0496 /* Sources */,
 				9AC84B471BFB975A004E0496 /* Frameworks */,
 				9AC84B481BFB975A004E0496 /* Resources */,
+				9AC84B841BFB9833004E0496 /* Embed Frameworks */,
+				9A43529F1C4FC49500F2EC93 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -147,42 +273,6 @@
 			productName = aquae;
 			productReference = 9AC84B4A1BFB975A004E0496 /* aquae.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9AC84B5F1BFB975A004E0496 /* aquaeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9AC84B771BFB975A004E0496 /* Build configuration list for PBXNativeTarget "aquaeTests" */;
-			buildPhases = (
-				9AC84B5C1BFB975A004E0496 /* Sources */,
-				9AC84B5D1BFB975A004E0496 /* Frameworks */,
-				9AC84B5E1BFB975A004E0496 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9AC84B621BFB975A004E0496 /* PBXTargetDependency */,
-			);
-			name = aquaeTests;
-			productName = aquaeTests;
-			productReference = 9AC84B601BFB975A004E0496 /* aquaeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9AC84B6A1BFB975A004E0496 /* aquaeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9AC84B7A1BFB975A004E0496 /* Build configuration list for PBXNativeTarget "aquaeUITests" */;
-			buildPhases = (
-				9AC84B671BFB975A004E0496 /* Sources */,
-				9AC84B681BFB975A004E0496 /* Frameworks */,
-				9AC84B691BFB975A004E0496 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9AC84B6D1BFB975A004E0496 /* PBXTargetDependency */,
-			);
-			name = aquaeUITests;
-			productName = aquaeUITests;
-			productReference = 9AC84B6B1BFB975A004E0496 /* aquaeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +286,7 @@
 				TargetAttributes = {
 					9AC84B491BFB975A004E0496 = {
 						CreatedOnToolsVersion = 7.1.1;
-					};
-					9AC84B5F1BFB975A004E0496 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 9AC84B491BFB975A004E0496;
-					};
-					9AC84B6A1BFB975A004E0496 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 9AC84B491BFB975A004E0496;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -221,8 +304,6 @@
 			projectRoot = "";
 			targets = (
 				9AC84B491BFB975A004E0496 /* aquae */,
-				9AC84B5F1BFB975A004E0496 /* aquaeTests */,
-				9AC84B6A1BFB975A004E0496 /* aquaeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,69 +313,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC84B861BFB990C004E0496 /* SKMaps.bundle in Resources */,
+				9A47B1201C5AAFCE00E395EA /* aquaeCripted.db in Resources */,
 				9AC84B5A1BFB975A004E0496 /* LaunchScreen.storyboard in Resources */,
 				9AC84B571BFB975A004E0496 /* Assets.xcassets in Resources */,
 				9AC84B551BFB975A004E0496 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AC84B5E1BFB975A004E0496 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AC84B691BFB975A004E0496 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9AC84BBD1BFE3751004E0496 /* fmdb.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A43529F1C4FC49500F2EC93 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AC84B461BFB975A004E0496 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC84B521BFB975A004E0496 /* SecondViewController.swift in Sources */,
+				9AC84BC01BFE3751004E0496 /* FMResultSet.m in Sources */,
+				9AD292DA1C40852B00C9F4D2 /* PoiTypeButton.swift in Sources */,
+				9AC84BE31C15ECEA004E0496 /* CircularLoaderView.swift in Sources */,
+				9AA7E9D91F54A04400C9B1F0 /* RNCryptor.swift in Sources */,
+				9AC84BCF1BFE38B1004E0496 /* Util.swift in Sources */,
+				9AD292B91C281CCB00C9F4D2 /* ListTableViewController.swift in Sources */,
 				9AC84B4E1BFB975A004E0496 /* AppDelegate.swift in Sources */,
-				9AC84B501BFB975A004E0496 /* FirstViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AC84B5C1BFB975A004E0496 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AC84B651BFB975A004E0496 /* aquaeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AC84B671BFB975A004E0496 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AC84B701BFB975A004E0496 /* aquaeUITests.swift in Sources */,
+				9AD292BD1C281EA300C9F4D2 /* ListTableViewCell.swift in Sources */,
+				9AC84BC81BFE3860004E0496 /* ModelManager.swift in Sources */,
+				9AD292DE1C42D6CE00C9F4D2 /* CustomPositionerService.swift in Sources */,
+				9AD292C11C319EEF00C9F4D2 /* RoutingTableViewCell.swift in Sources */,
+				9AC84BCB1BFE3860004E0496 /* Poi.swift in Sources */,
+				9AD292CD1C3EB20500C9F4D2 /* IntroTableViewCell.swift in Sources */,
+				9AD292C91C3C4B0200C9F4D2 /* IntroTableViewController.swift in Sources */,
+				9AD292D61C3EC43D00C9F4D2 /* PoiView.swift in Sources */,
+				9AC84BDB1C075CAA004E0496 /* DetailViewController.swift in Sources */,
+				9AC84BB71BFE3751004E0496 /* FMDatabase.m in Sources */,
+				9AD292D21C3EC03300C9F4D2 /* MapViewController.swift in Sources */,
+				9AC84BBA1BFE3751004E0496 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9AC84B621BFB975A004E0496 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9AC84B491BFB975A004E0496 /* aquae */;
-			targetProxy = 9AC84B611BFB975A004E0496 /* PBXContainerItemProxy */;
-		};
-		9AC84B6D1BFB975A004E0496 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9AC84B491BFB975A004E0496 /* aquae */;
-			targetProxy = 9AC84B6C1BFB975A004E0496 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9AC84B531BFB975A004E0496 /* Main.storyboard */ = {
@@ -336,6 +410,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -352,9 +427,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,9 +454,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -391,8 +469,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -403,10 +483,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/aquae",
+				);
 				INFOPLIST_FILE = aquae/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.aquae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "aquae-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -414,58 +510,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: PRJMA S.r.l. (RQW2C3NG99)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/aquae",
+				);
 				INFOPLIST_FILE = aquae/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.aquae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9AC84B781BFB975A004E0496 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = aquaeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.aquaeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aquae.app/aquae";
-			};
-			name = Debug;
-		};
-		9AC84B791BFB975A004E0496 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = aquaeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.aquaeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aquae.app/aquae";
-			};
-			name = Release;
-		};
-		9AC84B7B1BFB975A004E0496 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = aquaeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.aquaeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = aquae;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		9AC84B7C1BFB975A004E0496 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = aquaeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.aquaeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = aquae;
-				USES_XCTRUNNER = YES;
+				PROVISIONING_PROFILE = "b3303a3e-dddc-43ef-a600-04eacd379320";
+				SWIFT_OBJC_BRIDGING_HEADER = "aquae-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -488,22 +550,7 @@
 				9AC84B761BFB975A004E0496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9AC84B771BFB975A004E0496 /* Build configuration list for PBXNativeTarget "aquaeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9AC84B781BFB975A004E0496 /* Debug */,
-				9AC84B791BFB975A004E0496 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9AC84B7A1BFB975A004E0496 /* Build configuration list for PBXNativeTarget "aquaeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9AC84B7B1BFB975A004E0496 /* Debug */,
-				9AC84B7C1BFB975A004E0496 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
